@@ -120,3 +120,70 @@ h4 {
     right: 6px;
     cursor: pointer;
 }
+
+/* About */
+.about {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+
+.about img {
+    height: auto;
+    width: 430px;
+}
+
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-detail {
+    width: 550px;
+}
+
+.about-detail h2 {
+    color: #ffffff;
+    font-size: 70px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-detail h5 {
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+.about-detail p {
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    margin-bottom: 45px;
+    text-align: justify;
+}
+
+button {
+    background-color: #f90040;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+button:hover {
+    background-color: transparent;
+    border: 2px solid #f90040;
+    cursor: pointer;
+}
